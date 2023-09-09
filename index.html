@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function changingColor() {
+            function getRandomColor() {
+                const outputElement = document.getElementById("xyz");
+                let arr = ["blue", "green", "red", "yellow", "orange", "fuchsia", "cyan", "aqua", "IndianRed", "silver", "gray", "olive", "teal"];
+                let randomIndex = Math.floor(Math.random() * arr.length);
+                outputElement.textContent = arr[randomIndex];
+                return arr[randomIndex];
+
+            }
+            document.getElementById("bgc").style.backgroundColor = getRandomColor();
+        }
+    </script>
+</head>
+
+<body id="bgc">
+   
+    <div id="abc">
+        <h1>Background Color Generator</h1>
+    </div>
+    
+    <div id="efg">
+        <button onclick="changingColor()" id="xyz"></button>
+    
+    </div>
+</body>
+
+</html>

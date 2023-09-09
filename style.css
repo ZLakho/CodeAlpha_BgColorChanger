@@ -1,0 +1,21 @@
+#abc{
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 0.005%;
+    padding-bottom: 0.005%;
+    
+}
+#efg{
+    align-items: center;
+    margin-left: 45% ;
+    margin-top: 20%;
+    size: 50%;
+}
+#xyz{
+    width: 20%;
+    padding: 7%;
+    background-color: black;
+    color:beige;
+    font-size: larger;
+}
+
